@@ -25,7 +25,7 @@ async function start(): Promise<void> {
   await initConsoleAPI();
   console.debug('[renderer] Initializing AppInfoAPI...');
   await initAppInfoAPI();
-  console.debug('[worker] Initializing LocaleAPI...');
+  console.debug('[renderer] Initializing LocaleAPI...');
   await initLocaleAPI();
   console.debug('[renderer] Initializing UI...');
   await initUI();

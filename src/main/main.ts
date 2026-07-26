@@ -134,7 +134,7 @@ import { CURRENT_VERSION } from './version';
     await initConsoleAPI();
     console.debug('[main] Initializing AppInfoAPI...');
     await initAppInfoAPI();
-    console.debug('[worker] Initializing LocaleAPI...');
+    console.debug('[main] Initializing LocaleAPI...');
     await initLocaleAPI();
     console.debug('[main] Initializing ShellAPI...');
     await initShellAPI();
